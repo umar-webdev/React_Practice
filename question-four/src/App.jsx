@@ -5,7 +5,6 @@ import './App.css'
 
 function App() {
   const lists = ['list-1','list-2','list-3','list-4','list-5']
-  const [count, setCount] = useState(0)
 
   return (
     <>
