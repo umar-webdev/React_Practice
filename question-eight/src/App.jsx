@@ -15,7 +15,6 @@ function App() {
   const handleRemove = (index)=>{
     const updateTodos = todos.filter((_,i)=> i!== index);
     setTodos(updateTodos)
-
   }
   return (
     <>
